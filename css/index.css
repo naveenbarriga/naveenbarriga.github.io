@@ -1,0 +1,143 @@
+main {
+    width: 100%;
+    height: clamp(500px, calc(30vw - 60px), 800px);
+    background-color: #1A253A;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-intro {
+    width: 80%;
+    margin-right: 5vw;
+    align-self: center;
+}
+
+main .main-intro h1 {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.main-preview {
+    align-self: flex-end;
+    height: 95%;
+    margin: 0 5vw;
+    overflow: hidden;
+}
+
+.main-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+main p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main a {
+    margin-top: 20px;
+    font-size: 18px;
+    display: block;
+    background-color: var(--serve-blue);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px 20px;
+    transition: 0.1s ease-in-out;
+}
+
+main a:hover {
+    background-color: var(--serve-blue-highlight);
+}
+
+.index-stats {
+    width: 100%;
+    padding: 40px 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: clamp(100px, 15vw, 20vw);
+}
+
+.index-stats-item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.index-stats-item h3 {
+    color: var(--serve-blue);
+    font-size: 80px;
+    line-height: 60px;
+}
+
+.index-stats-item h4 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #222;
+    text-align: center;
+}
+
+.index-furtherPreviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px;
+    gap: 40px;
+}
+
+.index-furtherPreviews h2 {
+    font-size: 60px;
+    line-height: 65px;
+    padding-bottom: 10px;
+}
+
+.index-furtherPreviews p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.index-furtherPreviews img {
+    width: 50%;
+}
+
+.index-partners {
+    padding: 50px 70px;
+    background-color: white;
+}
+
+.index-partners h2 {
+    color: #222;
+    font-size: 55px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.index-partners div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0 70px;
+    padding-top: 30px;
+}
+
+.index-partners img {
+    width: 19%;
+}
+
+footer {
+    padding: 30px 100px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+}
