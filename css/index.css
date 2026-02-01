@@ -21,7 +21,7 @@ main .main-intro h1 {
 .main-preview {
     align-self: flex-end;
     height: 95%;
-    width: clamp(20%, 35%, 500px);
+    width: 500px;
     margin: 0 5vw;
     overflow: hidden;
 }
